@@ -1,5 +1,5 @@
 :root {
-    --bg-dark: #1A2F3A;
+    --bg-dark: #000000;
 
     --logo-height: 100px;
     --header-height: 100px;
@@ -32,7 +32,7 @@
         "menu content"
         "menu footer";
     height: 100vh;
-    background-color: #F5F5F5;
+    background-color: #2f2f2f;
 }
 
 aside.logo {
@@ -53,5 +53,6 @@ main.content {
 
 footer.footer {
     grid-area: footer;
+    background-color: #2f2f2f;
 }
 
